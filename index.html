@@ -80,6 +80,7 @@ html {
 #everything { position: absolute; zoom: 180%;
 	left:-360px;
 	top:100px; }
+#littletext{line-height: 12px !important;}
 }}
 @supports (-webkit-touch-callout: none) {
 @media screen and (max-width: 1000px) and (orientation: portrait){
@@ -87,6 +88,7 @@ html {
 	left:-360px;
 	top:100px; }
 html{-webkit-text-size-adjust: 175%; text-size-adjust: 175%;}
+#littletext{line-height: 12px !important;}
 }}
 
 @media screen and (min-width: 1700px) and (orientation: landscape){
@@ -117,7 +119,7 @@ html{-webkit-text-size-adjust: 175%; text-size-adjust: 175%;}
 
 <img style="position:absolute; z-index:-1; left:400px; top:50px;" src="https://i.imgur.com/xGPRELa.png"/>
 
-<div style="position:absolute; z-index:1; left:545px; top:192px; line-height:12px; width:180px;">
+<div id="littletext" style="position:absolute; z-index:1; left:545px; top:192px; line-height:12px; width:180px;">
 <div style="text-align:center;">
 <div id="all-weather">
 <font style="font-family: Cambria; font-size: 11px; color:#8a7577;">is the weather good for a tea party ?</font><br><br>
@@ -133,7 +135,7 @@ html{-webkit-text-size-adjust: 175%; text-size-adjust: 175%;}
 </div>
 </div>
 
-<div style="position:absolute; z-index:1; left:610px; top:425px; white-space: nowrap;">
+<div style="position:absolute; z-index:1; left:610px; top:425px; width:200px; height:30px; white-space: nowrap;">
 <a href="https://middlepot.com" target="_blank"><font style="font-family: Cambria; font-size: 10px; color:#7a6365;">© middlepot</font></a>
 </div>
 
