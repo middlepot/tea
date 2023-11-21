@@ -124,7 +124,7 @@ html {
 }
 
 @supports not (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 #everything { position: absolute; zoom: 180%;
 	left:-360px;
 	top:100px; }
@@ -132,7 +132,7 @@ html{line-height: 12px !important;}
 #littletext{line-height: 12px !important;}
 }}
 @supports (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 #everything { position: absolute; zoom: 180%;
 	left:-360px;
 	top:100px; }
@@ -147,7 +147,7 @@ html{-webkit-text-size-adjust: 175%; text-size-adjust: 175%; line-height: 0.1 !i
 #stuff { overflow: auto; overflow: scroll; }
 }
 @media screen and (min-width: 2000px) and (orientation: landscape){
-#everything { position: absolute; zoom: 100%;}
+#everything { position: absolute; zoom: 170%;}
 #stuff { overflow: auto; overflow: scroll; }
 }
 @media screen and (min-width: 3000px) and (orientation: landscape){
